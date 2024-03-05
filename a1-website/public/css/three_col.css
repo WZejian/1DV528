@@ -1,0 +1,19 @@
+.three-col {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  max-width: 1400px;
+}
+
+.three-col main {
+  width: calc(100% * 12 / 24);
+}
+
+.three-col aside {
+  width: calc(100% *  6 / 24);
+}
+
+.three-col aside.left {
+  width: calc(100% *  6 / 24);
+  order: -1;
+}

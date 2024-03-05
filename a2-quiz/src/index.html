@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/Quiz.png">
+    </head>
+
+    <body>
+        <div class="box">
+            <!--Entry box for user to start the quiz gmae-->
+            <div id="entry-box" class="entry-box">
+                <h1>Quiz Odyssey</h1>
+                <div class="rules">
+                    <ul>
+                        <li>7 questions in total in this quiz</li>
+                        <li>10 seconds to answer each question</li>
+                        <li>Game over if you give the wrong answer for any question</li>
+                    </ul>
+                </div>            
+                <form id="nickname-form">
+                    <label for="nickname-input">Nickname: </label>
+                    <input type="text" id="nickname-input" placeholder="Nickname here">
+                    <br><br>
+                    <button id="start-button">Start</button>
+                </form>
+            </div>
+
+            <!--Questions and answers box-->
+            <div id="quiz-box" class="quiz-box">
+                <div id="timer" class="timer"><span id="time-left"></span></div>
+                <h1 id="questions">Questions</h1>
+                <input type="text" id="answer-input-box" class="answer-input-text" placeholder="Enter your answer">
+                <div id="choices-box" class="choices-box"></div><br>
+                <button id="answer-submit-button">Submit</button>
+            </div>
+
+            <!--Score box-->
+            <div id="score-box">
+                <h1 id="reminder">Your Score</h1>
+                <table id="score-table"></table>
+                <a href="#" id="highscores-link">Scores Rank</a><br><br>
+                <button id="restart-button">Restart</button>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="./js/main.js"></script> 
+</html>

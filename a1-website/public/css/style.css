@@ -1,0 +1,13 @@
+/**
+ * Imports stylesheets for styles, layout and responsive design.
+ * Zejian Wang(zw222bb@student.lnu.se).
+ */
+
+@import url("base.css");
+@import url("header.css");
+@import url("navbar.css");
+@import url("main.css");
+@import url("two_col.css");
+@import url("three_col.css");
+@import url("footer.css");
+@import url("responsive.css?v=1");

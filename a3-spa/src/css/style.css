@@ -1,0 +1,200 @@
+/**
+ *Style for all apps.
+ */
+.window {
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #ffffcc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header {
+    background-color: #ccffff;
+    color: #fff;
+    padding: 5px;
+    text-align: right;
+}
+
+.closeImg {
+    cursor: pointer;
+}
+
+.memoMenu,
+.circlebox,
+.chatDiv,
+.big_box {
+    margin-bottom: 10px;
+}
+
+
+.chatArea {
+    width: 98%;
+    height: 250px;
+    background-color: #ccffff;
+}
+
+.message_reminder {
+    font-style: italic;
+    color: #555;
+}
+
+.userMessage {
+    caret-color: red;
+    /* Change the cursor color to red or a color of your choice */
+    animation: blink-animation 2s infinite;
+    /* Add a blinking animation */
+    background-color: #ccffff;
+}
+
+.memoryMenu {
+    padding-left: 12px;
+    padding-right: 11px;
+    padding-top: 5px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.memoMenu select {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff; 
+    color: #000; 
+}
+
+.memoMenu select:hover {
+    background-color: #f0f0f0; 
+    color: #333; 
+    cursor: pointer; 
+}
+
+.memoDiv {
+    width: 240px;
+    padding: 10px;
+}
+
+.memoDiv img {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+.img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.big_box {
+    position: relative;
+    width: 520px;
+    height: 400px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.big_box ul {
+    position: absolute;
+    left: 0;
+    width: 600%;
+    height: 400px;
+}
+
+.big_box ul li {
+    float: left;
+}
+
+.big_box ul li img {
+    width: 500px;
+    height: 400px;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, .5);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, .5);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.big_box ol {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10%;
+    line-height: 10%;
+    text-align: center;
+}
+
+.big_box ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.big_box ol .current {
+    background-color: rgb(211, 29, 29);
+}
+
+.left,
+.right,
+
+.cards {
+    max-width: 100%;
+    max-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+}
+
+.custom-option { 
+    display: inline-block; 
+    margin-right: 10px;
+    cursor: pointer; 
+    padding-left: 0px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+#gamesbar {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px; 
+}
+
+#gamesbar img {
+    margin: 0 10px; 
+}
+

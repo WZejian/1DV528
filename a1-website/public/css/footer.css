@@ -1,0 +1,58 @@
+/** footer.css */
+
+/*
+ * Set colors and size.
+ */
+.sitefooter {
+  background: linear-gradient(to bottom, #888, #666);
+  color: #fff;
+  padding: 0 1em;
+  margin-top: 24px;
+}
+
+.sitefooter ul {
+  padding-left: 1em;
+}
+
+/*
+* Style the links.
+*/
+.sitefooter a {
+  color: #fff;
+}
+
+.sitefooter a:hover {
+  color: lime;
+  text-decoration: none;
+}
+
+/*
+* Style the content.
+*/
+.box h4 {
+  border-bottom: 2px solid #fff;
+}
+
+.final {
+  text-align: center;
+}
+
+/*
+* Style the rows and columns.
+*/
+.sitefooter .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.sitefooter .row > .col3 {
+  width: calc(100% / 3);
+}
+
+.sitefooter .row > .col1 {
+  width: 100%;
+}
+
+
